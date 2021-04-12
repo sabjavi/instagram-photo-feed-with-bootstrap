@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4831e94a15.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!--start navigation-->
+    <nav class="navbar navbar-light  bg-light">
+        <a class="navbar-brand p-3 ml-5  text-muted" href="#">
+            <i class="fab fa-instagram fa-lg "></i>
+            Instagram
+        </a>
+        <!--start modal-->
+        <div class="d-flex justify-content-end">
+            <button type="button" class="btn btn-success m-auto" data-toggle="modal" data-target="#exampleModal"
+                data-whatever="">Create New Post</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModal">Create New Post</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <textarea class="form-control" id="message-text"></textarea>
+                            <button type="button" class="btn btn-outline-dark my-2">
+                                <i class="fas fa-camera"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-dark my-2">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancele</button>
+                            <button type="button" class="btn btn-primary">Publish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-cog"></i>
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Log out</a>
+                </div>
+            </div>
+        </div>
+        <!--Modal ends-->
+    </nav>
+    <!--navigation ends-->
+
+    <div class="col text-center m-3">
+        <a class="btn-group" href="index2.html">
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="fas fa-th"></i></button>
+
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="fas fa-stop"></i>
+            </button>
+        </a>
+    </div>
+
+    <div class="container bg-light" style="width: 40rem">
+
+        <div class="row d-flex justify-content-center">
+            <div class="card fs-3 m-3">
+                <h3 class="card-title">My first photo</h3>
+                <div class=image>
+                    <img src="https://i.pinimg.com/originals/c4/76/27/c476278504682e622fabe9b0932098c3.jpg" class="card-img-bottom"
+                        alt="">
+                </div>
+
+                <p class="pt-4 px-3 mb-1"><strong>2,467 Likes</strong></p>
+                <p class="text-justify px-3">This is my first phone of the feed, this is the a multi line
+                    comment for testing purpose. I'm learning to code with <strong>#BreatheCode</strong>.</p>
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <p class="px-3">
+                            <i class="far fa-heart"></i> Comment
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-row-reverse mx-4">
+                            <p>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card fs-3 m-3">
+            <div class="col1">
+                <h3 class="card-title">My second photo</h3>
+                <div class=image>
+                    <img src="https://st.depositphotos.com/1033604/2078/i/600/depositphotos_20788789-stock-photo-gourgeous-cherry-trees-in-full.jpg"
+                        class="card-img-bottom" alt="">
+                </div>
+
+                <p class="pt-4 px-3 mb-1"><strong>1,999 Likes</strong></p>
+                <p class="text-justify px-3">This is my first phone of the feed, this is the a multi line
+                    comment for testing purpose. I'm learning to code with <strong>#BreatheCode</strong>.</p>
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <p class="px-3">
+                            <i class="far fa-heart"></i> Comment
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-row-reverse mx-4">
+                            <p>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card fs-3 m-3">
+            <div class="col1">
+                <h3 class="card-title">My third photo</h3>
+                <div class=image>
+                    <img src="https://www.landuum.com/wp-content/uploads/2019/03/cultura_paisajeiluminado_landuum5.jpg" class="card-img-bottom"
+                        alt="">
+                </div>
+
+                <p class="pt-4 px-3 mb-1"><strong>7,675 Likes</strong></p>
+                <p class="text-justify px-3">This is my first phone of the feed, this is the a multi
+                    line
+                    comment for testing purpose. I'm learning to code with
+                    <strong>#BreatheCode</strong>.</p>
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <p class="px-3">
+                            <i class="far fa-heart"></i> Comment
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-row-reverse mx-4">
+                            <p>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card fs-3 m-3">
+            <div class="col1">
+                <h3 class="card-title">My fourth photo</h3>
+                <div class=image>
+                    <img src="https://mott.pe/noticias/wp-content/uploads/2018/08/3-ajustes-de-lightroom-para-darle-dramatismo-a-las-fotos-de-paisaje.png"
+                        class="card-img-bottom" alt="">
+                </div>
+                <p class="pt-4 px-3 mb-1"><strong>5,595 Likes</strong></p>
+                <p class="text-justify px-3">This is my first phone of the feed, this is the a multi line
+                    comment for testing purpose. I'm learning to code with <strong>#BreatheCode</strong>.</p>
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <p class="px-3">
+                            <i class="far fa-heart"></i> Comment
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-row-reverse mx-4">
+                            <p>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card fs-3 m-3">
+            <div class="col1">
+                <h3 class="card-title">My fifth photo</h3>
+                <div class=image>
+                    <img src="https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg"
+                        class="card-img-bottom" alt="">
+                </div>
+
+                <p class="pt-4 px-3 mb-1"><strong>3,748 Likes</strong></p>
+                <p class="text-justify px-3">This is my first phone of the feed, this is the a multi line
+                    comment for testing purpose. I'm learning to code with <strong>#BreatheCode</strong>.</p>
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <p class="px-3">
+                            <i class="far fa-heart"></i> Comment
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-row-reverse mx-4">
+                            <p>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card fs-3 m-3">
+            <div class="col1">
+                <h3 class="card-title">My final photo.</h3>
+                <div class=image>
+                    <img src="https://laderasur.com/content/uploads/2017/02/OP1A0670Nahuelbuta.Andel_.Paulmann.jpg" class="card-img-bottom" alt="">
+                </div>
+
+                <p class="pt-4 px-3 mb-1"><strong>2,435 Likes</strong></p>
+                <p class="text-justify px-3">This is my first phone of the feed, this is the a multi line
+                    comment for testing purpose. I'm learning to code with <strong>#BreatheCode</strong>.</p>
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <p class="px-3">
+                            <i class="far fa-heart"></i> Comment
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-row-reverse mx-4">
+                            <p>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+</html>     
